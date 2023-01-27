@@ -24,6 +24,7 @@ In the project directory, you can run:
 
 - Create a Database (name: timetracking)
 - Change project_id at task.json (it must be an existing id, you should use an id from the table Projects)
+- Create a file named .env at directory (it should have your postgres credentials, DB_USER, DB_PASSWORD, DB_HOST) to connect your database
 
 PD: All tables (Projects include) should create when you run npm start.
 
