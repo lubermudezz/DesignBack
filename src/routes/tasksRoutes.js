@@ -37,19 +37,6 @@ router.get('/myEntries/:user_id', async (req, res) => {
     }
 })
 
-// router.get('/myEntries/:user_id/:code', async (req, res) => {
-//     let {user_id, code} = req.params
-//     try{
-//         let all = await userMonthEntries(user_id, code)
-//         if(all) {
-//             res.send(all)
-//         } else{
-//             res.send('no entries')
-//         }
-//     } catch(err) {
-//         console.log(err)
-//     }
-// })
 
 router.get('/', async (req, res) => {
     try {   

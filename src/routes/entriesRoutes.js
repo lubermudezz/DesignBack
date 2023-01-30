@@ -8,8 +8,10 @@ router.get('/', async (req, res) => {
     let all = await getAllEntries()
     if(all.length === 0) {
         res.send('no entries')
+    } else {
+        res.json(all)
     }
-    res.json(all)
+    
 })
 
 router.post('/', async (req, res) => {
