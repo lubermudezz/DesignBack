@@ -19,7 +19,7 @@ const projectsDB = async () => {
             } )
             return console.log('project in db')
         }
-        createTask()
+         createTask()
         createUsers()
     }catch(err) {
         console.log(err)
@@ -58,7 +58,8 @@ const createTask = async () => {
         tasks.map(async (e) => {
             await Tasks.create({
                 name: e.name,
-                project_id: e.project_id
+                project_id: e.project_id,
+                description: e.description
             })
         })
         console.log('task in db')

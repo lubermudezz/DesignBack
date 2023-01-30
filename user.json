@@ -2,9 +2,9 @@
     {"userName": "admin",
      "admin": true
     },
-    {"userName": "user 1"},
-    {"userName": "user 2"},
-    {"userName": "user 3"},
-    {"userName": "user 4"}
+    {"userName": "test"},
+    {"userName": "test2"},
+    {"userName": "test3"},
+    {"userName": "test4"}
 
 ]

@@ -13,11 +13,7 @@ router.get('/login/:userName', async (req, res) => {
     let {userName} = req.params
     try {
         let user =  await getUserByName(userName)
-        if(user){
-            res.send(user)
-        }else{
-            res.send('no user found')
-        }
+        res.send(user)
     } catch (error) {
         console.log(error)
     }

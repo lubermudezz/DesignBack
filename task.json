@@ -1,29 +1,38 @@
 [
-    {"name":"Task 1",
-     "project_id": "a0fef46d-eb25-4a67-883e-0f9ab4872855"
+    {"name":"Creating DB",
+     "project_id": "aa180917-52df-41ef-a0ca-6fd5f30c9266",
+     "description": "Create Database"
     },
-    {"name":"Task 2",
-     "project_id": "e6a40907-6ab1-4d0d-8cc4-8988f0576f6c"
+    {"name":"Authetication",
+     "project_id": "aa180917-52df-41ef-a0ca-6fd5f30c9266",
+     "description": "User authentication"
     },
-    {"name":"Task 3",
-     "project_id": "f3f328f7-5b57-41aa-ae38-9a0a3bba6817"
+    {"name":"Admin Settings",
+     "project_id": "aa180917-52df-41ef-a0ca-6fd5f30c9266",
+     "description": "Create admin functionalities"
     },
-    {"name":"Task 4",
-     "project_id": "a0fef46d-eb25-4a67-883e-0f9ab4872855"
+    {"name":"Creating DB",
+     "project_id": "d3ec67fe-62ed-49af-8025-ab7feeccb1f7",
+     "description": "Create Database"
     },
-    {"name":"Task 5",
-     "project_id": "e6a40907-6ab1-4d0d-8cc4-8988f0576f6c"
+    {"name":"Images",
+     "project_id": "d3ec67fe-62ed-49af-8025-ab7feeccb1f7",
+     "description": "Select images and upload them to Cloudinary"
     },
-    {"name":"Task 6",
-     "project_id": "f3f328f7-5b57-41aa-ae38-9a0a3bba6817"
+    {"name":"Authentication",
+     "project_id": "d3ec67fe-62ed-49af-8025-ab7feeccb1f7",
+     "description": "User authentication"
     },
-    {"name":"Task 7",
-     "project_id": "a0fef46d-eb25-4a67-883e-0f9ab4872855"
+    {"name":"Images",
+     "project_id": "39262f7a-8a1f-44b3-836a-49dfc6f30208",
+     "description": "Select images and upload them to Cloudinary"
     },
-    {"name":"Task 8",
-     "project_id": "e6a40907-6ab1-4d0d-8cc4-8988f0576f6c"
+    {"name":"CSS",
+     "project_id": "39262f7a-8a1f-44b3-836a-49dfc6f30208",
+     "description": "Choose a CSS library and implement it on the project"
     },
-    {"name":"Task 9",
-     "project_id": "f3f328f7-5b57-41aa-ae38-9a0a3bba6817"
+    {"name":"Deployment",
+     "project_id": "39262f7a-8a1f-44b3-836a-49dfc6f30208",
+     "description": "Deploy the application"
     }
 ]

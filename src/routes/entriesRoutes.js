@@ -13,10 +13,11 @@ router.get('/', async (req, res) => {
 })
 
 router.post('/', async (req, res) => {
-    let {hours, comment, user_id, project_id, task_id} = req.body
+    let {hours, comment, user_id, project_id, task_id, date} = req.body
     let newTime = await Entries.create({
         hours,
         comment,
+        date,
         task_id,
         user_id,
         project_id

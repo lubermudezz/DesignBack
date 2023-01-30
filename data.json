@@ -1,11 +1,11 @@
 [
-    {"name":"project 1",
-     "description": "description 1"
+    {"name":"E-Commerce: 'Delivery App'",
+     "description": "Create an application where users will be able to order different meals. Use Node.js and React"
     },
-    {"name":"project 2",
-     "description": "description 2"
+    {"name":"Game: 'Find the differences'",
+     "description": "Create the classic online game of 'find the differences'. Users should get logged to play. Use React and Node.js"
     },
-    {"name":"project 3",
-     "description": "description 3"
+    {"name":"Game: 'Memotest'",
+     "description": "Create the classic 'memotest' game. All users can play, there's no need of authentication. Use React and Node.js"
     }
 ]

@@ -4,9 +4,9 @@ const { projectsDB } = require('./src/controller/dbElements.js')
 
 
 sequelize.sync({force: false}).then(() => {
-    app.listen(3000, async () => {
+    app.listen(3001, async () => {
         await projectsDB()
     })
-    console.log('Server on port 3000')
+    console.log('Server on port 3001')
 })
 

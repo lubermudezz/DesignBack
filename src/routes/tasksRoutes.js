@@ -1,6 +1,6 @@
 const {Router} = require('express');
 const { getAllTasks } = require('../controller/dbElements');
-const { taskEntries, getAllTaskAv } = require('../controller/tasksController');
+const { taskEntries, getAllTaskAv, userEntries } = require('../controller/tasksController');
 const router = Router()
 
 router.get('/:project_id', async (req, res) => {
@@ -22,6 +22,34 @@ router.get('/entries/:task_id/:user_id', async (req, res) => {
         console.log(err)
     }
 })
+
+router.get('/myEntries/:user_id', async (req, res) => {
+    let {user_id} = req.params
+    try{
+        let all = await userEntries(user_id)
+        if(all) {
+            res.send(all)
+        } else{
+            res.send('no entries')
+        }
+    } catch(err) {
+        console.log(err)
+    }
+})
+
+// router.get('/myEntries/:user_id/:code', async (req, res) => {
+//     let {user_id, code} = req.params
+//     try{
+//         let all = await userMonthEntries(user_id, code)
+//         if(all) {
+//             res.send(all)
+//         } else{
+//             res.send('no entries')
+//         }
+//     } catch(err) {
+//         console.log(err)
+//     }
+// })
 
 router.get('/', async (req, res) => {
     try {   
