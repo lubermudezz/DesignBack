@@ -2,9 +2,9 @@ require('dotenv').config()
 const { Sequelize } = require('sequelize');
 const fs = require('fs');
 const path = require('path');
-const { DB_USER, DB_PASSWORD, DB_HOST} = process.env;
-
-const sequelize = new Sequelize(`postgresql://${DB_USER}:${DB_PASSWORD}@${DB_HOST}/timetracking`, {
+const { DB_USER, DB_PASSWORD, DB_HOST, PG_USER, PG_HOST, PG_PASSWORD, PG_DATABASE } = process.env;
+//add deploy
+const sequelize = new Sequelize(`postgresql://${PG_USER || DB_USER}:${PG_PASSWORD || DB_PASSWORD}@${PG_HOST || DB_HOST}/${PG_DATABASE || 'timetracking'}`, {
   logging: false, // set to console.log to see the raw SQL queries
   native: false, // lets Sequelize know we can use pg-native for ~30% more speed
 });

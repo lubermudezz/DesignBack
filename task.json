@@ -1,38 +1,38 @@
 [
     {"name":"Creating DB",
-     "project_id": "aa180917-52df-41ef-a0ca-6fd5f30c9266",
+     "project_id": "b97e7ef3-fe9a-4d7f-9f13-e23e343910d2",
      "description": "Create Database"
     },
     {"name":"Authetication",
-     "project_id": "aa180917-52df-41ef-a0ca-6fd5f30c9266",
+     "project_id": "b97e7ef3-fe9a-4d7f-9f13-e23e343910d2",
      "description": "User authentication"
     },
     {"name":"Admin Settings",
-     "project_id": "aa180917-52df-41ef-a0ca-6fd5f30c9266",
+     "project_id": "b97e7ef3-fe9a-4d7f-9f13-e23e343910d2",
      "description": "Create admin functionalities"
     },
     {"name":"Creating DB",
-     "project_id": "d3ec67fe-62ed-49af-8025-ab7feeccb1f7",
+     "project_id": "ce44d7a1-2ff8-441e-a882-6ce98934b886",
      "description": "Create Database"
     },
     {"name":"Images",
-     "project_id": "d3ec67fe-62ed-49af-8025-ab7feeccb1f7",
+     "project_id": "ce44d7a1-2ff8-441e-a882-6ce98934b886",
      "description": "Select images and upload them to Cloudinary"
     },
     {"name":"Authentication",
-     "project_id": "d3ec67fe-62ed-49af-8025-ab7feeccb1f7",
+     "project_id": "ce44d7a1-2ff8-441e-a882-6ce98934b886",
      "description": "User authentication"
     },
     {"name":"Images",
-     "project_id": "39262f7a-8a1f-44b3-836a-49dfc6f30208",
+     "project_id": "61261dd4-cf91-4457-848a-c34afcf3da67",
      "description": "Select images and upload them to Cloudinary"
     },
     {"name":"CSS",
-     "project_id": "39262f7a-8a1f-44b3-836a-49dfc6f30208",
+     "project_id": "61261dd4-cf91-4457-848a-c34afcf3da67",
      "description": "Choose a CSS library and implement it on the project"
     },
     {"name":"Deployment",
-     "project_id": "39262f7a-8a1f-44b3-836a-49dfc6f30208",
+     "project_id": "61261dd4-cf91-4457-848a-c34afcf3da67",
      "description": "Deploy the application"
     }
 ]
