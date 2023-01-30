@@ -1,10 +1,12 @@
+require('dotenv').config()
 const {sequelize} = require ('./src/db.js')
 const app = require('./src/app')
 const { projectsDB } = require('./src/controller/dbElements.js')
+const { DB_PORT} = process.env;
 
 
 sequelize.sync({force: false}).then(() => {
-    app.listen(3001, async () => {
+    app.listen(DB_PORT, async () => {
         await projectsDB()
     })
     console.log('Server on port 3001')
