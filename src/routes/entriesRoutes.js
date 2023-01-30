@@ -36,7 +36,7 @@ router.put('/edit/:id', async (req, res) => {
     let {id} = req.params
     let {hours, comment} = req.body
     let newEntry = await editEntry(id, comment, hours)
-    res.send('entry changed successfully')
+    res.send(newEntry)
 })
 
 module.exports = router;
