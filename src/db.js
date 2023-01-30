@@ -3,10 +3,10 @@ const { Sequelize } = require('sequelize');
 const fs = require('fs');
 const path = require('path');
 const { DB_USER, DB_PASSWORD, DB_HOST, PG_USER, PG_HOST, PG_PASSWORD, PG_DATABASE } = process.env;
-//add deploy
+
 const sequelize = new Sequelize(`postgresql://${PG_USER || DB_USER}:${PG_PASSWORD || DB_PASSWORD}@${PG_HOST || DB_HOST}/${PG_DATABASE || 'timetracking'}`, {
-  logging: false, // set to console.log to see the raw SQL queries
-  native: false, // lets Sequelize know we can use pg-native for ~30% more speed
+  logging: false, 
+  native: false, 
 });
 
 const basename = path.basename(__filename);
@@ -38,7 +38,7 @@ Entries.belongsTo(Projects, {foreignKey:"project_id", targetKey: 'id'})
 Tasks.belongsTo(Projects, {foreignKey: "project_id", targetKey: 'id'})
 
 module.exports = {
-    ...sequelize.models, // para poder importar los modelos así: const { Product, User } = require('./db.js');
-    sequelize,     // para importart la conexión { conn } = require('./db.js');
+    ...sequelize.models, 
+    sequelize,  
     Entries, Tasks, Projects, Users
   };

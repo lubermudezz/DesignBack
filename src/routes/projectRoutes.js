@@ -21,9 +21,5 @@ router.get('/myEntries/:user_id/:project_id', async(req, res) => {
     
 })
 
-
-
-
-
 module.exports = router;
 

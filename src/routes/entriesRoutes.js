@@ -1,7 +1,6 @@
 const {Router} = require('express');
-const { addTime } = require('../controller/dbElements');
 const { approveEntry, editEntry, getAllEntries } = require('../controller/entriesController');
-const { Tasks, Entries } = require('../db');
+const {Entries } = require('../db');
 const router = Router()
 
 router.get('/', async (req, res) => {

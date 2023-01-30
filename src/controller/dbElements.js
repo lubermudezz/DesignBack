@@ -17,9 +17,9 @@ const projectsDB = async () => {
                     description: el.description
                 })
             } )
-            return console.log('project in db')
+            return console.log('projects in db')
         }
-         createTask()
+        createTask()
         createUsers()
     }catch(err) {
         console.log(err)
@@ -62,7 +62,7 @@ const createTask = async () => {
                 description: e.description
             })
         })
-        console.log('task in db')
+        console.log('tasks in db')
     }
 
 }
