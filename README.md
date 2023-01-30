@@ -36,7 +36,7 @@ PD: All tables (Projects include) should create when you run npm start.
 
 
 - You can login with a username. 
-  - 'user 1' will let you use the application as a common user. 
+  - 'test' will let you use the application as a common user. 
   - 'admin' will let you use the application as an admin. You'll be able to approve the user entries.
 
 
